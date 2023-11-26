@@ -32,3 +32,6 @@ SELECT HOUR(timestamp) AS hour, COUNT(*) AS page_views
 FROM web_logs
 GROUP BY hour
 ORDER BY hour;
+
+
+-- this is how i genearate code 
